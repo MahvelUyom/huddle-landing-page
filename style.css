@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    padding: 0 3rem;
+    background: url("bg-desktop.svg");
+
+}
+h1{
+    font-size: 4rem;
+    text-shadow: 2px 2px 8px ;
+}
+/* .logo{
+    background: rgb(206, 159, 206);
+} */
+.body{
+    margin-top: 2rem;
+    height: 100v;
+
+}
+.img{
+    width: 80%;
+}
+.img-flex{
+    display: flex;
+}
+.text{
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+.text p{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+button{
+    padding: 1rem 3.2rem;
+    margin-top: 2rem;
+    font-size: 1.7rem;
+    background: rgb(135, 38, 135);
+    color: white;
+    border-radius: 30px;
+    border: 0;
+}
+
+
+
+@media (max-width:956px){
+    .img-flex{
+        display: block;
+    }
+    body{
+        padding: 0 5rem;
+        background: url("bg-mobile.svg");
+        background-size: cover;
+        padding-right: 3rem;
+    }
+    .text h2{
+        font-size: 3rem;
+    }
+    .text p{
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+}
